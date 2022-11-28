@@ -1,0 +1,67 @@
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.App {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.header {
+  background-image: url("Header Hintergrund.jpg");
+  font-size: 2rem;
+}
+
+.navigate {
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.home {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.reiseziele {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.about {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.kontakt {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.footline {
+  background: rgba(0, 0, 0, 0.815);
+  margin-top: 100px;
+  font-size: 2rem;
+}
+
+body {
+  background: white;
+  color: black;
+  margin-top: 2rem;
+  font-size: 20px;
+}
